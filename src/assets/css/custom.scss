@@ -1,0 +1,308 @@
+.Business-Profile{
+    .form-control{
+        background-color: transparent;
+        color: white;
+    }
+    label{
+        color: white;
+    }
+}
+// .navbar {
+//     background: none!important;
+// }
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-transition: "color 9999s ease-out, background-color 9999s ease-out";
+    -webkit-transition-delay: 9999s;
+}
+.wrapper{
+  height: auto!important;
+}
+.padding-left-4px{
+    padding-left: 4px;
+}
+.px-4px{
+    padding-right: 4px!important;
+    padding-left: 4px!important;
+}
+.form-control-lg{
+    height: auto;
+}
+.businessTypes{
+    .dropDownItem_iconMenu__1wCKU {
+        max-height: 400px!important;
+        overflow: auto;
+    }
+    .dropDownItem_iconMenu__1E92t {
+      max-height: 400px!important;
+        overflow: auto;
+    }
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+ 
+::-webkit-scrollbar-track {
+    background: rgba(221,221,221,0.9); 
+    // -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.9); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    // background: rgba(221,221,221,0.9); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.9); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(221,221,221,0.9); 
+}
+.light-gray{
+    color: #d4d4d4;
+}
+.basic-font{
+    font-size: 14.5px;
+    padding-left: 10px;
+}
+.register-style {
+  .react-select__value-container{
+    padding-bottom: 0px!important;
+    margin-top: 10px!important;
+  }
+  .form-check .form-check-sign::before {
+    top: 5px;
+    width: 16px;
+    height: 16px;
+  }
+  .form-check .form-check-sign::after{
+    font-size: 10px;
+    left: -5px;
+  }
+}
+.card-signup .form-check label{
+  margin-left: 23px;
+  padding-left: 35px;
+}
+.position-select-style .react-select__input>input{
+  color: transparent!important;
+  padding-top: 14px!important;
+    &:focus{
+        outline: none!important;
+    }
+}
+.country-select-style{
+  .react-select__input>input{
+    padding-top: 10px!important;
+    font-size: 12.5px!important;
+  }
+  .css-b8ldur-Input{
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+}
+.font-size-20{
+  font-size: 20px;
+}
+.cursor{
+  cursor: pointer;
+}
+.sidebar:after, .off-canvas-sidebar:after {
+  background: #6610f2 !important;
+}
+.sidebar {
+  
+  .logo .simple-text{
+    text-transform: capitalize;
+  }
+  .nav li > a{
+    text-transform: capitalize;
+  }
+}
+.font-size-14{
+  font-size: 14px;
+}
+.font-size-16{
+  font-size: 16px;
+}
+.form-check .form-check-label{
+  font-size: 14px;
+}
+.bold{
+  font-weight: bold;
+}
+.Italic-font{
+  font-style: italic;
+}
+.close-date{
+  .btn{
+    padding: 5px 22px!important;
+    margin-top: 3px;
+    margin-left: 20px;
+  }
+}
+.konvajs-content{
+  // margin-left: auto;
+  // margin-right: auto;
+  // margin-top: 50px;
+  // margin-bottom: 50px;
+  width: 100%;
+  canvas{
+    padding-top: 10px;
+    // border: 1px solid black!important;
+    // margin: auto!important;
+  }
+}
+.react-grid-item.cssTransforms{
+  background-color: white;
+}
+.react-grid-layout{
+  background-color: lightgray;
+  height: 2000px!important;
+}
+.MuiButtonBase-root {
+  outline: none!important;
+}
+.setNumber{
+  position: relative;
+  width: 900px;
+  height: 580px;
+  border: 1px solid black;
+}
+.activeColor1{
+  background-color: lightgreen!important;
+  color: white!important;
+}
+.activeColor2{
+  background-color: brown!important;
+  color: white!important;
+}
+.activeColor3{
+  background-color: lightblue!important;
+  color: white!important;
+}
+.activeColor4{
+  background-color: purple!important;
+  color: white!important;
+}
+.activeColor5{
+  background-color: gold!important;
+  color: white!important;
+}
+.activeColors{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)!important;
+}
+.options .card-body{
+  min-height: auto!important;
+}
+.light-gray{
+  color: lightgray;
+}
+.options .language-dropdown .btn{
+  background-color: transparent!important;
+}
+.option-dropdown-button{
+  font-size: 20px;
+  padding: 10px;
+}
+.addSunbed .card-body{
+  min-height: auto!important;
+}
+textarea.form-control{
+  max-height: 150px!important;
+}
+.rule-button{
+  background-color: #8600FD!important;
+}
+.create-element-style{
+  width: 100%;
+  border: 1px solid black;
+  height: 600px;
+  overflow: auto;
+}
+.form-control{
+  padding: 10px!important;
+}
+.select-element{
+  padding: 9px 12px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.active-element{
+  font-weight: bold;
+  color: white!important;
+  background-color: #46A8FF;
+  border-radius: 20px;
+}
+.same-price-every{
+  color: black!important;
+  font-style: italic;
+}
+.reset-period{
+  position: absolute;
+  top: 55px;
+  width: 100%;
+}
+.top-calendar{
+  // background-color: rgb(102, 0, 153);
+  background-color: #4207a2;
+  margin: 5px;
+  border-radius: 10px;
+  p{
+    color: white;
+    padding: 5px;
+    margin-bottom: 0px;
+  }
+}
+.table-layout{
+  position: relative;
+}
+.money-icon{
+  color: #E91E63;
+  font-size: 40px;
+}
+.card-facilities .btn-primary{
+  background-color: transparent;
+}
+.card-facilities .btn-primary:focus{
+  background-color: transparent;
+}
+.card-facilities .form-check .form-check-label{
+  font-size: 12px;
+}
+.edit_height{
+  min-height: 200px !important;
+}
+
+// New Css
+h5.title {
+  color: #4207a2;
+}
+.bold {
+  color: #4207a2;
+}
+button.btn.btn-success {
+  color: #fff;
+  background-color: #4207a2;
+  border-radius: 30px;
+  // width: 18%;
+}
+button.btn-round.m-0.btn.btn-primary.disabled {
+  background-color: #4207a2;
+  border-color: #4207a2;
+}
+button.btn-round.btn.btn-secondary {
+  background-color: #4207a2;
+}
+button.btn.btn-primary.rule-button.disabled {
+  background-color: #4207a2;
+  border-color: #4207a2;
+}
+button.btn-round.btn-block.bold.option-dropdown-button.dropdown-toggle.btn.btn-info {
+  color: #fff !important;
+  background-color: #4207a2;
+}
+.alert.alert-info {
+  background-color: #4207a2 !important;
+}

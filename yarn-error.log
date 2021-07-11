@@ -1,0 +1,93 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\dotnet\;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Talented Business\AppData\Local\Microsoft\WindowsApps;C:\Users\Talented Business\AppData\Local\Yarn\bin;C:\Users\Talented Business\AppData\Local\Programs\Microsoft VS Code\bin;C:\wamp64\bin\php\php7.4.0;C:\Users\Talented Business\AppData\Local\ComposerSetup\bin;C:\Users\Talented Business\AppData\Roaming\Composer\vendor\bin;C:\Users\Talented Business\AppData\Roaming\npm;
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.15.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\Talented Business\AppData\Local\Yarn\Cache\v6\npm-typescript-3.9.5-586f0dba300cde8be52dd1ac4f7e1009c1b13f36-integrity\node_modules\typescript\.yarn-tarball.tgz'
+
+npm manifest: 
+  {
+    "name": "tabo-dashboard",
+    "version": "1.4.0",
+    "private": true,
+    "homepage": "https://demos.creative-tim.com/login/#/",
+    "dependencies": {
+      "bootstrap": "4.5.0",
+      "chart.js": "2.9.3",
+      "gulp": "4.0.2",
+      "gulp-append-prepend": "1.0.8",
+      "match-sorter": "4.1.0",
+      "moment": "2.26.0",
+      "node-sass": "^4.14.1",
+      "nouislider": "14.5.0",
+      "npm-run-all": "4.1.5",
+      "perfect-scrollbar": "1.5.0",
+      "react": "16.13.1",
+      "react-big-calendar": "0.25.0",
+      "react-bootstrap-sweetalert": "5.1.11",
+      "react-bootstrap-switch": "15.5.3",
+      "react-bootstrap-wizard": "0.0.7",
+      "react-chartjs-2": "2.9.0",
+      "react-datetime": "2.16.3",
+      "react-dom": "16.13.1",
+      "react-google-maps": "9.4.5",
+      "react-jvectormap": "0.0.16",
+      "react-notification-alert": "0.0.12",
+      "react-router-dom": "5.2.0",
+      "react-scripts": "3.4.1",
+      "react-select": "3.1.0",
+      "react-table": "7.2.0",
+      "react-tagsinput": "3.19.0",
+      "reactstrap": "8.4.1"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build && gulp licenses",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject",
+      "compile-sass": "node-sass src/assets/scss/now-ui-dashboard.scss src/assets/css/now-ui-dashboard.css",
+      "minify-sass": "node-sass src/assets/scss/now-ui-dashboard.scss src/assets/css/now-ui-dashboard.min.css --output-style compressed",
+      "map-sass": "node-sass src/assets/scss/now-ui-dashboard.scss src/assets/css/now-ui-dashboard.css --source-map true",
+      "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start"
+    },
+    "devDependencies": {
+      "@types/googlemaps": "3.39.6",
+      "@types/markerclustererplus": "2.1.33",
+      "@types/react": "16.9.36",
+      "ajv": "6.12.2",
+      "classnames": "^2.2.6",
+      "typescript": "3.9.5"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,77 @@
+@import "smart-beach/variables";
+@import "smart-beach/mixins";
+
+// Core CSS
+@import "smart-beach/buttons";
+@import "smart-beach/social-buttons";
+@import "smart-beach/inputs";
+@import "smart-beach/typography";
+@import "smart-beach/misc";
+@import "smart-beach/navbar";
+@import "smart-beach/dropdown";
+@import "smart-beach/alerts";
+@import "smart-beach/images";
+@import "smart-beach/nucleo-outline";
+@import "smart-beach/tables";
+@import "smart-beach/footers";
+@import "smart-beach/fixed-plugin";
+
+// components
+@import "smart-beach/checkboxes-radio";
+@import "smart-beach/progress";
+@import "smart-beach/badges";
+@import "smart-beach/pagination";
+@import "smart-beach/info-areas";
+@import "smart-beach/pills";
+@import "smart-beach/tabs";
+@import "smart-beach/rtl";
+@import "smart-beach/popups";
+@import "smart-beach/modals";
+@import "smart-beach/carousel";
+@import "smart-beach/sidebar-and-main-panel";
+@import "smart-beach/timeline";
+
+// cards
+@import "smart-beach/cards";
+@import "smart-beach/cards/card-chart";
+@import "smart-beach/cards/card-user";
+@import "smart-beach/cards/card-plain";
+
+@import "smart-beach/cards/card-background";
+@import "smart-beach/cards/card-collapse";
+@import "smart-beach/cards/card-map";
+@import "smart-beach/cards/card-contributions";
+@import "smart-beach/cards/card-info-area";
+@import "smart-beach/cards/card-lock";
+@import "smart-beach/cards/card-pricing";
+@import "smart-beach/cards/card-profile";
+@import "smart-beach/cards/card-signup";
+@import "smart-beach/cards/card-stats-mini";
+@import "smart-beach/cards/card-stats";
+@import "smart-beach/cards/card-subcategories";
+@import "smart-beach/cards/card-testimonials";
+@import "smart-beach/cards/card-wizard";
+
+// Plugins CSS
+@import "smart-beach/plugins/plugin-bootstrap-switch";
+@import "smart-beach/plugins/plugin-nouislider";
+@import "smart-beach/plugins/plugin-animate-bootstrap-notify";
+@import "smart-beach/plugins/plugin-perfect-scrollbar";
+@import "smart-beach/plugins/plugin-card-wizard";
+@import "smart-beach/plugins/plugin-datetimepicker";
+@import "smart-beach/plugins/plugin-bootstrap-select";
+@import "smart-beach/plugins/plugin-jasny-fileupload";
+@import "smart-beach/plugins/plugin-tagsinput";
+@import "smart-beach/plugins/plugin-datatables.net";
+@import "smart-beach/plugins/plugin-jquery.jvectormap";
+@import "smart-beach/plugins/plugin-fullcalendar";
+
+// example pages and sections
+@import "smart-beach/login-page";
+@import "smart-beach/sections";
+
+@import "smart-beach/responsive";
+@import "smart-beach/media-queries";
+
+// react differences
+@import "smart-beach/react/react-differences";
